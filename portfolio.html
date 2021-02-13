@@ -1,0 +1,62 @@
+<!-- Demo Layout for Bootstrap (with cards) -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>About Me</title>
+
+  <!-- We need to bring in the bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  
+  <!-- NavBar (copied and pasted from WC3) -->
+  <!-- Static navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">My Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Me!</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Body goes in Container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+      <!-- The content in this div gets wrapped in a card -->
+            <h2>Portfolio</h2>
+      <div id="project1"><a href="https://github.com/arianaw15/Team-Baby-Yoda">Team Project</a><br>
+      <p>For this team project, we created an application with APIs that could be used to help people track their trip. It featured a calendar, to-do-list and APIs to find restaraunts, activities and hotels in the area. My contributions centered around the visual layout including the rotating and responsive cube. See below:</p>
+    <br>
+  <img src="Assets/cubepic.PNG"></div>
+  <br>
+      <div id="passwordGenerator"><a href="https://jlbaldree.github.io/Password_Generator/">Password Generator</a><br>
+      <p>For this project, I created a password generator that allows a user to generate passwords to fit a given criteria. The user establishes the criteria including number of characters and what the password should consist of such as alpha, numeric and/or special characters. Here is the GitHub Link: https://github.com/jlbaldree/Password_Generator. You can also click on the hyperlink in the title to go directly to the application. </p>
+      <br>
+      <img src="Assets/Passwordpic.PNG"></div>
+      <br>
+      <div id="codingQuiz"><a href="https://jlbaldree.github.io/Coding-Quiz/">Coding Quiz</a><br>
+      <p>The coding quiz is an application that allows a user to take a timed quiz consisting of 5 questions. Once the timer runs out or all the questions have been answered, the user's score is displayed and he/she can enter their initials. If their score is high enough to make the top 3 scores, it is added to the high score list. Github Link: https://github.com/jlbaldree/Coding-Quiz.git</p><br>
+      <img src="Assets/quizpic.png">
+    <br></div>
+    </div>
+
+</body>
+
+</html>
