@@ -28,7 +28,7 @@ An HTML validation service was used to ensure that each page has valid HTML.
 
 ![image](https://user-images.githubusercontent.com/74524186/107844108-f7caa000-6d8d-11eb-80da-c5ed7ae59707.png)
 
-![alt text](assets/images/cubepic.PNG)
+
 
 
 
